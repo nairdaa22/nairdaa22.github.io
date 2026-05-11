@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+			<head><meta charset="UTF-8">
+				
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Temporary Website - Verification</title>
+				<link rel="stylesheet" href="/wp-content/mu-plugins/zipwp-client-mu/inc/admin/assets/css/site-protection.css">
+			</head>
+			<body>
+				<div class="zipwp-container">
+					<div class="zipwp-row">
+						<div class="zipwp-content">
+							<div class="zipwp-login-container">
+								<div class="zipwp-inner-container">
+									<div class="zipwp-row">
+										<div class="zipwp-content-wrap">
+											<img alt="lock" src="/wp-content/mu-plugins/zipwp-client-mu/inc/admin/assets/images/lock-icon.svg" class="zipwp-password-icon">
+											<h2 class="zipwp-heading">This is a Temporary Preview Site</h2>
+											<p class="zipwp-text">
+												This is a temporary site not optimized for live traffic.
+												<br>
+												Connect your domain to go live for better performance, uptime, and visitor access.
+											</p>
+											<div class="zipwp-submit-form">
+												<button type="button" onclick="handleConnectDomain()" class="zipwp-btn zipwp-submit-btn">
+													Connect Domain &amp; Go Live
+												</button>
+												<button type="button" onclick="handleContinueTemporary()" class="zipwp-btn zipwp-continue-btn">
+													Continue with Temporary Site
+												</button>
+												<p class="zipwp-footer-text">Powered by <a target="_blank" href="https://zipwp.com/">ZipWP</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="zipwp-image"></div>
+					</div>
+				</div>
+				<input type="hidden" name="zipwp_site_protection_nonce" value="d4a90c62d0">
+				<div id="zipwp-data" data-url="/wp-admin/admin-ajax.php" data-site-uuid="210d2879-e476-4edf-bfd0-4d29caf0421a" data-plan="free"></div>
+				<script src="/wp-content/mu-plugins/zipwp-client-mu/inc/admin/assets/js/site-protection.js"></script>
+			</body>
+		</html>
